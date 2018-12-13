@@ -1,0 +1,34 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>Demo</h2>
+<a onclick="start();">启动调度器</a>
+<a onclick="addJob();">添加任务</a>
+@*<a onclick="loadJob();">加载任务</a>*@
+<a onclick="delJob();">删除任务</a>
+<script>
+    var start = function () {
+        $.post("/Home/Start", null, function (res) {
+            console.log(res);
+        })
+    }
+
+    var addJob = function () {
+        $.post("/Home/AddJob", null, function (res) {
+            console.log(res);
+        })
+    }
+
+    var loadJob = function () {
+        $.post("/Home/LoadJob", null, function (res) {
+            console.log(res);
+        })
+    }
+
+    var delJob = function () {
+        $.post("/Home/DelJob", null, function (res) {
+            console.log(res);
+        })
+    }
+</script>
