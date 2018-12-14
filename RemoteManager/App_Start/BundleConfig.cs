@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace WebApplication1
+namespace RemoteManager
 {
     public class BundleConfig
     {
