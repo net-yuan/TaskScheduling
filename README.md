@@ -9,7 +9,9 @@ https://github.com/quartznet/quartznet，各种用法可以参考示例程序。
 多数系统都会涉及到“后台服务”的开发，一般是为了调度一些自动执行的任务或从队列中消费一些消息，开发 windows service 有一点不爽的是：调试麻烦，当然你还需要知道 windows service 相关的一些开发知识（也不难），TopShelf框架，可以你让 console application 封装为 windows service，这样你就非常方便的开发和调试 windows service。TopShelf框架的官网为Url:http://topshelf-project.com
 用TopShelf和quartz.net编写任务，CrystalQuartz管理任务。本文就是搭建一个简易的任务调度方案，启动任务调度、添加Job、移除Job、远程管理等。
 <h3>联系我们</h3>
-博客网址：http://net-yuan.com
-微信公众号：![Image text](http://39.96.4.156:9091/Pay/payCode.png)
-Email：2253972318@qq.com
-QQ：2253972318
+
+![Image text](https://github.com/anangyang/TaskScheduling/blob/master/Images/weiChartPic.png)
+
+<p>博客网址：http://net-yuan.com</p></p>
+<p>Email：2253972318@qq.com</p>
+<p>QQ：2253972318</p>
